@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "parcel build src/index.ts --out-dir dist --public-url ./",
-    "watch": "parcel watch src/index.ts --out-dir dist --public-url ./",
-    "serve": "parcel src/index.ts"
+    "watch": "parcel watch src/index.tsx  --public-url ./",
+    "build": "parcel build src/index.tsx  --public-url ./",
+    "serve": "parcel src/index.tsx"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
