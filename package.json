@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "watch": "parcel watch src/index.tsx  --public-url ./",
-    "build": "parcel build src/index.tsx  --public-url ./",
-    "serve": "parcel src/index.tsx"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
